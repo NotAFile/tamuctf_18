@@ -1,0 +1,80 @@
+    1 0.000000000    10.0.2.15 → 172.217.1.227 TLSv1.2 100 Application Data
+    2 0.028836470 172.217.1.227 → 10.0.2.15    TLSv1.2 100 Application Data
+    3 0.029111221    10.0.2.15 → 172.217.1.227 TCP 60 60626 → 443 [ACK] Seq=47 Ack=47 Win=64240 Len=0
+    4 2.187637400    10.0.2.10 → 10.0.2.7     FTP 72 Request: QUIT
+    5 2.188009460     10.0.2.7 → 10.0.2.10    FTP 80 Response: 221 Goodbye.
+    6 2.188019790     10.0.2.7 → 10.0.2.10    TCP 66 21 → 52494 [FIN, ACK] Seq=15 Ack=7 Win=114 Len=0 TSval=131438 TSecr=2972584156
+    7 2.188215024    10.0.2.10 → 10.0.2.7     TCP 66 52494 → 21 [FIN, ACK] Seq=7 Ack=16 Win=229 Len=0 TSval=2972584156 TSecr=131438
+    8 2.188398815     10.0.2.7 → 10.0.2.10    TCP 66 21 → 52494 [ACK] Seq=16 Ack=8 Win=114 Len=0 TSval=131438 TSecr=2972584156
+    9 2.632128382    10.0.2.15 → 10.0.2.7     DNS 75 Standard query 0x684f A ssl.gstatic.com
+   10 2.632136463    10.0.2.15 → 10.0.2.7     DNS 75 Standard query 0x9206 AAAA ssl.gstatic.com
+   11 2.632301613    10.0.2.15 → 172.217.1.227 TLSv1.2 150 Application Data
+   12 2.632494051 PcsCompu_bf:6a:35 → Broadcast    ARP 60 Who has 10.0.2.15? Tell 10.0.2.7
+   13 2.632600906 PcsCompu_2d:44:0a → PcsCompu_bf:6a:35 ARP 60 10.0.2.15 is at 08:00:27:2d:44:0a
+   14 2.632750159     10.0.2.7 → 10.0.2.15    DNS 302 Standard query response 0x684f A ssl.gstatic.com A 172.217.9.163 NS a.root-servers.net NS i.root-servers.net NS h.root-servers.net NS k.root-servers.net NS c.root-servers.net NS j.root-servers.net NS e.root-servers.net NS b.root-servers.net NS g.root-servers.net NS d.root-servers.net NS f.root-servers.net NS m.root-servers.net NS l.root-servers.net
+   15 2.632753817     10.0.2.7 → 10.0.2.15    DNS 314 Standard query response 0x9206 AAAA ssl.gstatic.com AAAA 2607:f8b0:4000:813::2003 NS l.root-servers.net NS c.root-servers.net NS b.root-servers.net NS k.root-servers.net NS e.root-servers.net NS h.root-servers.net NS m.root-servers.net NS d.root-servers.net NS f.root-servers.net NS i.root-servers.net NS j.root-servers.net NS g.root-servers.net NS a.root-servers.net
+   16 2.672654432 172.217.1.227 → 10.0.2.15    TLSv1.2 151 Application Data
+   17 2.672875897    10.0.2.15 → 172.217.1.227 TCP 60 60626 → 443 [ACK] Seq=143 Ack=144 Win=64240 Len=0
+   18 2.673318525 172.217.1.227 → 10.0.2.15    TLSv1.2 173 Application Data, Application Data
+   19 2.673552187    10.0.2.15 → 172.217.1.227 TCP 60 60626 → 443 [ACK] Seq=143 Ack=263 Win=64240 Len=0
+   20 2.673790494 172.217.1.227 → 10.0.2.15    TLSv1.2 100 Application Data
+   21 2.674015307    10.0.2.15 → 172.217.1.227 TCP 60 60626 → 443 [ACK] Seq=143 Ack=309 Win=64240 Len=0
+   22 2.674300948    10.0.2.15 → 172.217.1.227 TLSv1.2 100 Application Data
+   23 2.872398367 172.217.1.227 → 10.0.2.15    TCP 60 443 → 60626 [ACK] Seq=309 Ack=189 Win=32299 Len=0
+   24 4.685654908    10.0.2.10 → 10.0.2.7     TCP 74 52496 → 21 [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=2972584781 TSecr=0 WS=128
+   25 4.685939961     10.0.2.7 → 10.0.2.10    TCP 74 21 → 52496 [SYN, ACK] Seq=0 Ack=1 Win=14480 Len=0 MSS=1460 SACK_PERM=1 TSval=132063 TSecr=2972584781 WS=128
+   26 4.685956993    10.0.2.10 → 10.0.2.7     TCP 66 52496 → 21 [ACK] Seq=1 Ack=1 Win=29312 Len=0 TSval=2972584781 TSecr=132063
+   27 4.687818497     10.0.2.7 → 10.0.2.10    FTP 86 Response: 220 (vsFTPd 2.3.5)
+   28 4.687876266    10.0.2.10 → 10.0.2.7     TCP 66 52496 → 21 [ACK] Seq=1 Ack=21 Win=29312 Len=0 TSval=2972584781 TSecr=132063
+   29 6.835297481    10.0.2.10 → 10.0.2.7     FTP 77 Request: USER seed
+   30 6.835587241     10.0.2.7 → 10.0.2.10    TCP 66 21 → 52496 [ACK] Seq=21 Ack=12 Win=14592 Len=0 TSval=132600 TSecr=2972585318
+   31 6.835665007     10.0.2.7 → 10.0.2.10    FTP 100 Response: 331 Please specify the password.
+   32 6.835696341    10.0.2.10 → 10.0.2.7     TCP 66 52496 → 21 [ACK] Seq=12 Ack=55 Win=29312 Len=0 TSval=2972585318 TSecr=132600
+   33 7.887554199 PcsCompu_2d:44:0a → PcsCompu_bf:6a:35 ARP 60 Who has 10.0.2.7? Tell 10.0.2.15
+   34 7.887733946 PcsCompu_bf:6a:35 → PcsCompu_2d:44:0a ARP 60 10.0.2.7 is at 08:00:27:bf:6a:35
+   35 8.051335795    10.0.2.10 → 10.0.2.7     FTP 77 Request: PASS dess
+   36 8.088627312     10.0.2.7 → 10.0.2.10    TCP 66 21 → 52496 [ACK] Seq=55 Ack=23 Win=14592 Len=0 TSval=132914 TSecr=2972585622
+   37 11.274545290     10.0.2.7 → 10.0.2.10    FTP 88 Response: 530 Login incorrect.
+   38 11.274695976    10.0.2.10 → 10.0.2.7     TCP 66 52496 → 21 [ACK] Seq=23 Ack=77 Win=29312 Len=0 TSval=2972586428 TSecr=133711
+   39 11.274925378    10.0.2.10 → 10.0.2.7     FTP 72 Request: SYST
+   40 11.275466282     10.0.2.7 → 10.0.2.10    TCP 66 21 → 52496 [ACK] Seq=77 Ack=29 Win=14592 Len=0 TSval=133711 TSecr=2972586428
+   41 11.275486083     10.0.2.7 → 10.0.2.10    FTP 104 Response: 530 Please login with USER and PASS.
+   42 11.320902544    10.0.2.10 → 10.0.2.7     TCP 66 52496 → 21 [ACK] Seq=29 Ack=115 Win=29312 Len=0 TSval=2972586440 TSecr=133711
+   43 14.211259544    10.0.2.10 → 10.0.2.7     FTP 72 Request: QUIT
+   44 14.211673471     10.0.2.7 → 10.0.2.10    FTP 80 Response: 221 Goodbye.
+   45 14.211685304     10.0.2.7 → 10.0.2.10    TCP 66 21 → 52496 [FIN, ACK] Seq=129 Ack=35 Win=14592 Len=0 TSval=134445 TSecr=2972587162
+   46 14.211734784    10.0.2.10 → 10.0.2.7     TCP 66 52496 → 21 [ACK] Seq=35 Ack=129 Win=29312 Len=0 TSval=2972587162 TSecr=134445
+   47 14.211963828    10.0.2.10 → 10.0.2.7     TCP 66 52496 → 21 [FIN, ACK] Seq=35 Ack=130 Win=29312 Len=0 TSval=2972587162 TSecr=134445
+   48 14.212145878     10.0.2.7 → 10.0.2.10    TCP 66 21 → 52496 [ACK] Seq=130 Ack=36 Win=14592 Len=0 TSval=134445 TSecr=2972587162
+   49 16.284498401    10.0.2.10 → 10.0.2.7     TCP 74 52498 → 21 [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=2972587680 TSecr=0 WS=128
+   50 16.284817568     10.0.2.7 → 10.0.2.10    TCP 74 21 → 52498 [SYN, ACK] Seq=0 Ack=1 Win=14480 Len=0 MSS=1460 SACK_PERM=1 TSval=134964 TSecr=2972587680 WS=128
+   51 16.284837505    10.0.2.10 → 10.0.2.7     TCP 66 52498 → 21 [ACK] Seq=1 Ack=1 Win=29312 Len=0 TSval=2972587680 TSecr=134964
+   52 16.286730954     10.0.2.7 → 10.0.2.10    FTP 86 Response: 220 (vsFTPd 2.3.5)
+   53 16.286783594    10.0.2.10 → 10.0.2.7     TCP 66 52498 → 21 [ACK] Seq=1 Ack=21 Win=29312 Len=0 TSval=2972587681 TSecr=134964
+   54 18.098716737    10.0.2.10 → 10.0.2.7     FTP 77 Request: USER seed
+   55 18.099023774     10.0.2.7 → 10.0.2.10    TCP 66 21 → 52498 [ACK] Seq=21 Ack=12 Win=14592 Len=0 TSval=135418 TSecr=2972588134
+   56 18.099125798     10.0.2.7 → 10.0.2.10    FTP 100 Response: 331 Please specify the password.
+   57 18.099177961    10.0.2.10 → 10.0.2.7     TCP 66 52498 → 21 [ACK] Seq=12 Ack=55 Win=29312 Len=0 TSval=2972588134 TSecr=135418
+   58 19.402603468    10.0.2.10 → 10.0.2.7     FTP 77 Request: PASS dees
+   59 19.432621407     10.0.2.7 → 10.0.2.10    FTP 89 Response: 230 Login successful.
+   60 19.432792063    10.0.2.10 → 10.0.2.7     TCP 66 52498 → 21 [ACK] Seq=23 Ack=78 Win=29312 Len=0 TSval=2972588467 TSecr=135751
+   61 19.432869123    10.0.2.10 → 10.0.2.7     FTP 72 Request: SYST
+   62 19.433314543     10.0.2.7 → 10.0.2.10    FTP 85 Response: 215 UNIX Type: L8
+   63 19.476953693    10.0.2.10 → 10.0.2.7     TCP 66 52498 → 21 [ACK] Seq=29 Ack=97 Win=29312 Len=0 TSval=2972588479 TSecr=135751
+   64 26.586366915    10.0.2.10 → 10.0.2.7     FTP 74 Request: TYPE I
+   65 26.587045902     10.0.2.7 → 10.0.2.10    FTP 97 Response: 200 Switching to Binary mode.
+   66 26.587097891    10.0.2.10 → 10.0.2.7     TCP 66 52498 → 21 [ACK] Seq=37 Ack=128 Win=29312 Len=0 TSval=2972590256 TSecr=137541
+   67 26.587178089    10.0.2.10 → 10.0.2.7     FTP 90 Request: PORT 10,0,2,10,198,181
+   68 26.587505714     10.0.2.7 → 10.0.2.10    FTP 117 Response: 200 PORT command successful. Consider using PASV.
+   69 26.587570960    10.0.2.10 → 10.0.2.7     FTP 83 Request: STOR shadow.txt
+   70 26.588058058     10.0.2.7 → 10.0.2.10    TCP 74 20 → 50869 [SYN] Seq=0 Win=14600 Len=0 MSS=1460 SACK_PERM=1 TSval=137541 TSecr=0 WS=128
+   71 26.588073460    10.0.2.10 → 10.0.2.7     TCP 74 50869 → 20 [SYN, ACK] Seq=0 Ack=1 Win=28960 Len=0 MSS=1460 SACK_PERM=1 TSval=2972590256 TSecr=137541 WS=128
+   72 26.588260722     10.0.2.7 → 10.0.2.10    TCP 66 20 → 50869 [ACK] Seq=1 Ack=1 Win=14720 Len=0 TSval=137541 TSecr=2972590256
+   73 26.588274163     10.0.2.7 → 10.0.2.10    FTP 88 Response: 150 Ok to send data.
+   74 26.588371678    10.0.2.10 → 10.0.2.7     FTP-DATA 218 FTP Data: 152 bytes
+   75 26.588427096    10.0.2.10 → 10.0.2.7     TCP 66 50869 → 20 [FIN, ACK] Seq=153 Ack=1 Win=29056 Len=0 TSval=2972590256 TSecr=137541
+   76 26.588626495     10.0.2.7 → 10.0.2.10    TCP 66 20 → 50869 [ACK] Seq=1 Ack=153 Win=15744 Len=0 TSval=137541 TSecr=2972590256
+   77 26.588633212     10.0.2.7 → 10.0.2.10    TCP 66 20 → 50869 [FIN, ACK] Seq=1 Ack=154 Win=15744 Len=0 TSval=137541 TSecr=2972590256
+   78 26.588637434    10.0.2.10 → 10.0.2.7     TCP 66 50869 → 20 [ACK] Seq=154 Ack=2 Win=29056 Len=0 TSval=2972590256 TSecr=137541
+   79 26.589008250     10.0.2.7 → 10.0.2.10    FTP 90 Response: 226 Transfer complete.
+   80 26.589042481    10.0.2.10 → 10.0.2.7     TCP 66 52498 → 21 [ACK] Seq=78 Ack=225 Win=29312 Len=0 TSval=2972590257 TSecr=137541
